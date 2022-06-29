@@ -62,3 +62,7 @@ buildlog.txt
 *.mtl
 
 *.dat
+
+screenbufferdata/results/resultImagesForDoc.psd
+
+scene_export/mountain/grid.vx
