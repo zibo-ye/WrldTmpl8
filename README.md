@@ -77,7 +77,19 @@ Currently this means an emitter can have strength [0..15] but this could easily 
 
 The skydome sampling in this implementation is separate from ReSTIR and is not considered during candidate sampling but rather always sampled during the shading stage.
 
+![bricks_voxels](https://github.com/xanderhermans/WrldTmpl8/raw/github/screenbufferdata/results/bricks_voxels.png)
+A comparison between voxel emitters grouped as bricks of 8x8x8 emitting voxels and individual voxel emitters.
+
 ![restir_voxel_restir_reference](https://github.com/xanderhermans/WrldTmpl8/raw/github/screenbufferdata/results/gfxexp_sa_gt/edited/gfxexp_sa_gt/flyingapartments1.png)
+A comparison between ReSTIR, Voxel ReSTIR and the ground truth using the same settings and scene.
+
+![point_area_reference](https://github.com/xanderhermans/WrldTmpl8/raw/github/screenbufferdata/results/point_sa_gt/edited/point_sa_gt/flyingapartments2.png)
+A comparison between considering voxel emitters as point lights or considering voxel emitters as area lights.
+
+![sa32_sa16_sa8_sa1](https://github.com/xanderhermans/WrldTmpl8/raw/github/screenbufferdata/results/sa_32_16_8_1/edited/sa_32_16_8_1/mountain1.png)
+Varying number of candidates using Voxel ReSTIR with voxel emitters as area lights.
+
+For more details and images refer to the [paper](https://github.com/xanderhermans/WrldTmpl8/blob/github/INFOMGMT_21_Thesis_Xander_Hermans.pdf).
 
 ## Implementation details
 The Voxel ReSTIR project is implemented in the MyGame subproject. Make sure to set this project as startup project when running from Visual Studio.
