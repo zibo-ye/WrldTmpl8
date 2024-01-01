@@ -11,6 +11,7 @@
 #include <filesystem>
 #include <chrono>
 #include <fstream>
+#include <sstream>
 #include <vector>
 #include <list>
 #include <string>
