@@ -68,3 +68,11 @@ buildlog.txt
 screenbufferdata/results/resultImagesForDoc.psd
 
 scene_export/mountain/grid.vx
+
+*.sln
+*.vcxproj
+*.vcxproj.user
+.xmake
+.vs
+.vscode
+build

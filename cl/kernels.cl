@@ -1,4 +1,4 @@
-#include "template/common.h"
+#include "common.h"
 #include "cl/reservoir.cl"
 #include "cl/trace.cl"
 #include "cl/tools.cl"
